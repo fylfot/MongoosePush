@@ -39,7 +39,6 @@ defmodule MongoosePush.Mixfile do
      {:mix_docker, "~> 0.5"},
      {:uuid, "~> 1.1"},
      {:lager, ">= 3.2.1", override: true},
-     {:logger_lager_backend, "~> 0.1.0"},
 
      # Just overrides to make elixometer compile...
      {:exometer_core, github: "esl/exometer_core", override: true},
